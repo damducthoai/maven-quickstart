@@ -1,0 +1,10 @@
+mvn archetype:generate -DinteractiveMode=false -DarchetypeGroupId=org.codehaus.mojo.archetypes -DarchetypeArtifactId=pom-root -DarchetypeVersion=1.1 -DgroupId=com.butchjgo -Dversion=1.0 -DartifactId=pom-root-demo 
+
+mvn archetype:generate -DinteractiveMode=false -DarchetypeGroupId=org.codehaus.mojo.archetypes -DarchetypeArtifactId=webapp-javaee7 -DarchetypeVersion=1.1 -DgroupId=com.butchjgo -Dversion=1.0 -DartifactId=web-aap-demo 
+
+mvn archetype:generate -DinteractiveMode=false -DarchetypeGroupId=org.codehaus.mojo.archetypes -DarchetypeArtifactId=ejb-javaee7 -DarchetypeVersion=1.1 -DgroupId=com.butchjgo -Dversion=1.0 -DartifactId=ejb-app-demo 
+
+mvn archetype:generate -DinteractiveMode=false -DarchetypeGroupId=org.codehaus.mojo.archetypes -DarchetypeArtifactId=ear-javaee7 -DarchetypeVersion=1.0 -DgroupId=com.butchjgo -Dversion=1.0 -DartifactId=ear-aap-demo 
+
+mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false -DgroupId=com.butchjgo -Dversion=1.0 -DartifactId=webapp-demo
+mvn archetype:generate -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false -DgroupId=com.butchjgo -Dversion=1.0 -DartifactId=app-demo
